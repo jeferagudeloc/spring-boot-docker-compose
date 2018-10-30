@@ -11,7 +11,7 @@ git clone https://github.com/jeferagudeloc/spring-boot-docker-compose.git
 
 
 Luego, se pueden ejecutar los siguiente comandos:
-```
+
 
 Para iniciar el ambiente de desarrollo es necesario tener instalado docker y docker-compose.
 
