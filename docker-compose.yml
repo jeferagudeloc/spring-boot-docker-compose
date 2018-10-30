@@ -17,7 +17,7 @@ services:
       - '18000:8000'
     volumes:
       - '/etc/localtime:/etc/localtime:ro'
-      - './src/BACKKR001:/usr/src/project'
+      - './src/SPRNGDKCR001:/usr/src/project'
       - 'm2_volume:/home/maven/.m2'
     depends_on:
       - 'db'

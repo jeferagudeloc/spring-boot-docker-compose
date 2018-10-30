@@ -10,9 +10,7 @@ wait_changes(){
 
 stop_mvn(){
     {
-        IDS_JAVA=$(pgrep java)
-        kill $IDS_JAVA
-        echo "MAVEN se ha detenido"
+        fuser -k 8000/tcp || fuser -k 8080/tcp || echo "MAVEN se ha detenido"
     } || {
         echo "MAVEN no estaba ejecutandose"
     }

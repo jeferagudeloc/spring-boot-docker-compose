@@ -10,7 +10,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  * 
- * @author: jeferson
+ * @author: jeferson 
  */
 @Configuration
 @EnableAutoConfiguration
@@ -22,9 +22,9 @@ public class LocalApplication {
 
 	public static void main(String[] args) {
 		LOGGER.info("*************************************");
-		LOGGER.info("*******INICIANDO LA APLICACION*******");
-		LOGGER.info("*************************************");
-		SpringApplication.run(LocalApplication.class, args);
-	}
+		LOGGER.info("*******INICIANDO LA APLICACION*******"); 
+		LOGGER.info("*************************************"); 
+		SpringApplication.run(LocalApplication.class, args); 
+	} 
 
 }
